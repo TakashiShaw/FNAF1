@@ -1,0 +1,97 @@
+{
+  "generation_mode": "Built-in image_gen tool; model selected by tool, no explicit model parameter exposed",
+  "prompts": [
+    {
+      "path": "assets/images/office/office-base.png",
+      "prompt": "Use case: stylized-concept. Create a production-ready clean background for a FNAF 1 inspired browser horror game. Input image is a reference for office composition only. One single wide 16:9 image, ideally 1536x864. Fixed first-person seated security office, BOTH left doorway at x=0.05–0.20 and right doorway at x=0.80–0.95 fully visible and open, symmetrical readable doorway geometry, central desk with old monitor, metal fan, paper cup, scattered papers, grimy wall with illegible children's drawings. Desk occupies lower center without occluding door openings. Creepy realistic worn 3D game render matching dim fluorescent grimy restaurant backgrounds. Dark but readable, restrained desaturated colors. No characters. No HUD, text, numbers, clock, power bar, buttons, labels, watermarks, static, borders. No readable poster text. This is the fixed base frame that future exact matching door/light overlays will use. Fill entire frame."
+    },
+    {
+      "path": "assets/images/cameras/cam-1a-show-stage.png",
+      "prompt": "Use case: stylized-concept. Input is STYLE AND RESTAURANT continuity reference. Create ONE empty Show Stage security camera background for a FNAF 1 inspired horror browser game. Wide 16:9 full frame, 1672x941 if possible. Locked high corner surveillance viewpoint looking down onto small raised performance stage with burgundy curtains and three EMPTY performance positions. Grimy checkerboard surfaces, decaying family restaurant, dim overhead fluorescent pools, matching realism, darkness, textures and restrained colors of supplied Dining Area. No characters, no spare heads, no HUD, labels, text, camera frame, scanlines or static. Space for three character sprite overlays."
+    },
+    {
+      "path": "assets/images/cameras/cam-1c-pirate-cove-closed.png",
+      "prompt": "Use case: stylized-concept. Input is STYLE reference only. Create ONE Pirate Cove camera background for a FNAF 1 inspired browser horror game, wide 16:9, ideally 1672x941. Fixed elevated surveillance camera view of small pirate themed performance alcove, deep purple worn curtains COMPLETELY CLOSED in center, dusty checkerboard floor, star garland, grimy wall, dim ceiling fluorescent. Realistic worn 3D game render matching reference restaurant. Curtain should occupy central half of frame, its bottom at 75% frame height; room visible around it. No characters visible, no readable text/signage, no HUD, scanlines, labels, border or UI. This exact room composition will be reused for later curtain states."
+    },
+    {
+      "path": "assets/images/menu/title-background.png",
+      "prompt": "Use case: stylized-concept. Input is composition reference. Create ONE clean 16:9 horror game title background. Photorealistic worn Freddy Fazbear brown bear animatronic with black top hat, rounded ears, broad muzzle and one dimly glowing white eye emerging from near black on RIGHT half, tightly cropped ominous portrait. LEFT 55 percent nearly black empty negative space for live title and menu UI. Dark desaturated cinematic 3D render. No text, no menu, no title, no numbers, no cursor, no copyright, no logo, no watermarks, no static/scanlines. Keep left region empty."
+    },
+    {
+      "path": "assets/images/office/door-left-closed.png",
+      "prompt": "Use case: precise-object-edit. Edit target is the supplied office-base game background. Create ONE full-frame office state image, same exact 1672x941 dimensions and viewpoint as input. Close ONLY the LEFT doorway with a heavy vertically sliding ribbed steel security door, fully lowered to the floor. Right doorway stays open and dark. Preserve ALL other room geometry, desk, fan, posters, lamp, colors, scale and pixel placement as closely as possible. Full opaque scene, NOT a transparent overlay. No crop, camera movement, added controls, words, HUD, static, borders, characters or interface. This will be composited by clipping the changed doorway area over the base frame."
+    },
+    {
+      "path": "assets/images/office/door-right-closed.png",
+      "prompt": "Use case: precise-object-edit. Edit target is the supplied office-base game background. Create ONE full-frame office state image, same exact 1672x941 dimensions and viewpoint as input. Close ONLY the RIGHT doorway with a heavy vertically sliding ribbed steel security door, fully lowered to the floor. Left doorway stays open and dark. Preserve ALL other room geometry, desk, fan, posters, lamp, colors, scale and pixel placement as closely as possible. Full opaque scene, NOT a transparent overlay. No crop, camera movement, added controls, words, HUD, static, borders, characters or interface. This will be composited by clipping the changed doorway area over the base frame."
+    },
+    {
+      "path": "assets/images/office/light-left.png",
+      "prompt": "Use case: precise-object-edit. Edit target is the supplied office-base game background. Create ONE full-frame office state image, same exact 1672x941 dimensions and viewpoint as input. Turn on ONLY a cool white doorway spotlight inside the LEFT opening, revealing the EMPTY left hallway and checkerboard surfaces. Both doors stay open. Right doorway stays dark. Preserve ALL other room geometry, desk, fan, posters, lamp, colors, scale and pixel placement as closely as possible. Full opaque scene, NOT a transparent overlay. No crop, camera movement, added controls, words, HUD, static, borders, characters or interface. This will be composited by clipping the changed doorway area over the base frame."
+    },
+    {
+      "path": "assets/images/office/light-right.png",
+      "prompt": "Use case: precise-object-edit. Edit target is the supplied office-base game background. Create ONE full-frame office state image, same exact 1672x941 dimensions and viewpoint as input. Turn on ONLY a cool white doorway spotlight inside the RIGHT opening, revealing the EMPTY right hallway and checkerboard surfaces. Both doors stay open. Left doorway stays dark. Preserve ALL other room geometry, desk, fan, posters, lamp, colors, scale and pixel placement as closely as possible. Full opaque scene, NOT a transparent overlay. No crop, camera movement, added controls, words, HUD, static, borders, characters or interface. This will be composited by clipping the changed doorway area over the base frame."
+    },
+    {
+      "path": "assets/images/animatronics/freddy-camera.png",
+      "prompt": "Use case: stylized-concept. Create ONE isolated game character sprite, Freddy Fazbear, brown bear animatronic with round ears, black top hat, black bow tie, tan muzzle and belly, blue mechanical eyes, holding microphone. Full body from ears/hat to feet, centered in canvas with 7% padding, neutral standing ominous pose, slight elevated security-camera perspective, front three-quarter view. Realistic worn 3D game render for FNAF 1 horror browser game, scratched shell, grubby fabric texture, visible segmented joints; character visually faithful and recognizable. Soft dim cool overhead lighting but readable detail. Genuinely TRANSPARENT background with alpha, NO environment, no floor plane, no cast shadow outside character, no text, no labels, no border, no duplicate characters. Single character only. This will be scaled into dark room backgrounds."
+    },
+    {
+      "path": "assets/images/animatronics/bonnie-camera.png",
+      "prompt": "Use case: stylized-concept. Create ONE isolated game character sprite, Bonnie, purple rabbit animatronic with two long upright ears, red bow tie, pale muzzle and belly, unsettling purple-red mechanical eyes, no instrument. Full body from ears/hat to feet, centered in canvas with 7% padding, neutral standing ominous pose, slight elevated security-camera perspective, front three-quarter view. Realistic worn 3D game render for FNAF 1 horror browser game, scratched shell, grubby fabric texture, visible segmented joints; character visually faithful and recognizable. Soft dim cool overhead lighting but readable detail. Genuinely TRANSPARENT background with alpha, NO environment, no floor plane, no cast shadow outside character, no text, no labels, no border, no duplicate characters. Single character only. This will be scaled into dark room backgrounds."
+    },
+    {
+      "path": "assets/images/animatronics/chica-camera.png",
+      "prompt": "Use case: stylized-concept. Create ONE isolated game character sprite, Chica, yellow chicken animatronic, orange beak and feet, small feather tuft, white bib with colorful confetti shapes but NO letters, mechanical eyes. Full body from ears/hat to feet, centered in canvas with 7% padding, neutral standing ominous pose, slight elevated security-camera perspective, front three-quarter view. Realistic worn 3D game render for FNAF 1 horror browser game, scratched shell, grubby fabric texture, visible segmented joints; character visually faithful and recognizable. Soft dim cool overhead lighting but readable detail. Genuinely TRANSPARENT background with alpha, NO environment, no floor plane, no cast shadow outside character, no text, no labels, no border, no duplicate characters. Single character only. This will be scaled into dark room backgrounds."
+    },
+    {
+      "path": "assets/images/animatronics/foxy-camera.png",
+      "prompt": "Use case: stylized-concept. Create ONE isolated game character sprite, Foxy, worn red pirate fox animatronic, long pointed ears, black eye patch lifted above one eye, right metal hook hand, torn brown shorts, exposed metal joints and lower legs, pointed mechanical teeth. Full body from ears/hat to feet, centered in canvas with 7% padding, neutral standing ominous pose, slight elevated security-camera perspective, front three-quarter view. Realistic worn 3D game render for FNAF 1 horror browser game, scratched shell, grubby fabric texture, visible segmented joints; character visually faithful and recognizable. Soft dim cool overhead lighting but readable detail. Genuinely TRANSPARENT background with alpha, NO environment, no floor plane, no cast shadow outside character, no text, no labels, no border, no duplicate characters. Single character only. This will be scaled into dark room backgrounds."
+    },
+    {
+      "path": "assets/images/office/bonnie-left.png",
+      "prompt": "Use case: compositing. Input 1 is exact edit-target office background, input 2 is character identity reference. Add ONLY Bonnie standing immediately outside the illuminated LEFT doorway, looking into office, feet on hallway floor, ears within opening. His purple rabbit head and upper torso clearly visible with red bow tie, matching reference identity, lit by the cool doorway light. Preserve entire office and right doorway geometry, scale, desk, fan, lamp, posters and viewpoint exactly. One full opaque office state image, 1672x941, no HUD or text. Right doorway stays open dark. Do not move scene or alter center office."
+    },
+    {
+      "path": "assets/images/office/chica-right.png",
+      "prompt": "Use case: compositing. Input 1 is exact edit-target office background, input 2 is character identity reference. Add ONLY Chica standing immediately outside the illuminated RIGHT doorway, looking into office, feet on hallway floor. Her yellow chicken head, orange beak and white confetti bib clearly visible, matching reference identity, lit by cool doorway light. Preserve entire office and left doorway geometry, scale, desk, fan, lamp, posters and viewpoint exactly. One full opaque office state image, 1672x941, no HUD or text. Left doorway stays open dark. Do not move scene or alter center office."
+    },
+    {
+      "path": "assets/images/animatronics/foxy-west-hall.png",
+      "prompt": "Use case: compositing. Input 1 exact West Hall background edit target; input 2 Foxy identity reference. Create ONE 16:9 full-frame Foxy sprint warning camera image. Add red pirate fox animatronic Foxy in MID HALLWAY lunging/running toward the security camera, full figure with raised hook and exposed metal legs, perspective and light matched to hallway. His silhouette and face readable; subtle motion in limbs only. Preserve hallway walls, posters, floor, doors, office at end, viewpoint and framing. No text, HUD, static, borders. 1672x941."
+    },
+    {
+      "path": "assets/images/cameras/cam-1c-pirate-cove-peeking.png",
+      "prompt": "Use case: precise-object-edit. Input 1 exact Pirate Cove room background edit target; input 2 is Foxy character identity reference only. Open a very narrow central curtain gap, only about 8% of curtain width. Foxy's yellow eye, red muzzle and part of one ear peek through the gap from darkness. Most of his body remains hidden. Preserve exact room camera angle, framing, stage shape, checkerboard floor, speakers, ceiling lamps, stars, balloons, wall colors and lighting. Change ONLY curtain central opening and Foxy as instructed. Full opaque 16:9 image 1672x941. No text, HUD, camera labels, borders, static or extra characters."
+    },
+    {
+      "path": "assets/images/cameras/cam-1c-pirate-cove-emerged.png",
+      "prompt": "Use case: precise-object-edit. Input 1 exact Pirate Cove room background edit target; input 2 is Foxy character identity reference only. Pull the center curtains apart enough for Foxy to stand visibly between them on the small stage, his red head, hook, torso and metal legs visible, leaning forward ready to leave, staring at the camera. Preserve exact room camera angle, framing, stage shape, checkerboard floor, speakers, ceiling lamps, stars, balloons, wall colors and lighting. Change ONLY curtain central opening and Foxy as instructed. Full opaque 16:9 image 1672x941. No text, HUD, camera labels, borders, static or extra characters."
+    },
+    {
+      "path": "assets/images/cameras/cam-1c-pirate-cove-empty.png",
+      "prompt": "Use case: precise-object-edit. Input 1 exact Pirate Cove room background edit target; input 2 is Foxy character identity reference only. Pull the curtains apart to reveal the EMPTY black alcove and empty stage. Foxy has left; NO character, no eye glow, no silhouette remains. Preserve exact room camera angle, framing, stage shape, checkerboard floor, speakers, ceiling lamps, stars, balloons, wall colors and lighting. Change ONLY curtain central opening and Foxy as instructed. Full opaque 16:9 image 1672x941. No text, HUD, camera labels, borders, static or extra characters."
+    },
+    {
+      "path": "assets/images/office/office-power-out.png",
+      "prompt": "Use case: lighting-weather. Exact edit target is office-base. Create ONE matching power-out office background: overhead lamp OFF, all monitors OFF, fan unlit and both open doorways dark, room almost black but faint silhouettes of desk and walls remain readable. Preserve exact office geometry, desk, fan, drawings, perspective, framing and dimensions 1672x941. Do not add characters, glowing eyes, text, HUD, UI or change object positions. Full opaque frame."
+    },
+    {
+      "path": "assets/images/jumpscares/freddy.png",
+      "prompt": "Use case: identity-preserve. Input image is the exact freddy character identity reference. Create ONE full-frame 16:9 game jumpscare STILL of this same animatronic lunging close into first-person camera inside a dark security office. Face dominates 70% of frame, jaws/beak wide open exposing mechanical teeth/endoskeleton, eyes fixed at viewer, dramatic harsh cool frontal light with deep shadows, realistic worn 3D game render, same shell colors and facial design as reference. Close-up horror robot, no human victim, no gore. Subtle looming shoulder silhouette, near-black office background. Full opaque 1672x941 landscape image. No text, HUD, title, border, split panels, static, blur covering face or extra characters. One crisp standalone frame, not an animation sheet."
+    },
+    {
+      "path": "assets/images/jumpscares/bonnie.png",
+      "prompt": "Use case: identity-preserve. Input image is the exact bonnie character identity reference. Create ONE full-frame 16:9 game jumpscare STILL of this same animatronic lunging close into first-person camera inside a dark security office. Face dominates 70% of frame, jaws/beak wide open exposing mechanical teeth/endoskeleton, eyes fixed at viewer, dramatic harsh cool frontal light with deep shadows, realistic worn 3D game render, same shell colors and facial design as reference. Close-up horror robot, no human victim, no gore. Subtle looming shoulder silhouette, near-black office background. Full opaque 1672x941 landscape image. No text, HUD, title, border, split panels, static, blur covering face or extra characters. One crisp standalone frame, not an animation sheet."
+    },
+    {
+      "path": "assets/images/jumpscares/chica.png",
+      "prompt": "Use case: identity-preserve. Input image is the exact chica character identity reference. Create ONE full-frame 16:9 game jumpscare STILL of this same animatronic lunging close into first-person camera inside a dark security office. Face dominates 70% of frame, jaws/beak wide open exposing mechanical teeth/endoskeleton, eyes fixed at viewer, dramatic harsh cool frontal light with deep shadows, realistic worn 3D game render, same shell colors and facial design as reference. Close-up horror robot, no human victim, no gore. Subtle looming shoulder silhouette, near-black office background. Full opaque 1672x941 landscape image. No text, HUD, title, border, split panels, static, blur covering face or extra characters. One crisp standalone frame, not an animation sheet."
+    },
+    {
+      "path": "assets/images/jumpscares/foxy.png",
+      "prompt": "Use case: identity-preserve. Input image is the exact foxy character identity reference. Create ONE full-frame 16:9 game jumpscare STILL of this same animatronic lunging close into first-person camera inside a dark security office. Face dominates 70% of frame, jaws/beak wide open exposing mechanical teeth/endoskeleton, eyes fixed at viewer, dramatic harsh cool frontal light with deep shadows, realistic worn 3D game render, same shell colors and facial design as reference. Close-up horror robot, no human victim, no gore. Subtle looming shoulder silhouette, near-black office background. Full opaque 1672x941 landscape image. No text, HUD, title, border, split panels, static, blur covering face or extra characters. One crisp standalone frame, not an animation sheet."
+    }
+  ]
+}
